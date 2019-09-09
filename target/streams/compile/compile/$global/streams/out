@@ -1,0 +1,79 @@
+[error] C:\Users\daniel.moreno\proyecto\admin-lte-3.0-play-framework\app\models\Currency.java:3:1: package io.ebean does not exist
+[error] import io.ebean.Finder;
+[error] C:\Users\daniel.moreno\proyecto\admin-lte-3.0-play-framework\app\models\Currency.java:4:1: package io.ebean does not exist
+[error] import io.ebean.Model;
+[error] C:\Users\daniel.moreno\proyecto\admin-lte-3.0-play-framework\app\models\Currency.java:6:1: package javax.persistence does not exist
+[error] import javax.persistence.*;
+[error] C:\Users\daniel.moreno\proyecto\admin-lte-3.0-play-framework\app\models\Currency.java:12:1: cannot find symbol
+[error]   symbol: class Model
+[error] public class Currency extends Model {
+[error] C:\Users\daniel.moreno\proyecto\admin-lte-3.0-play-framework\app\models\Currency.java:10:1: cannot find symbol
+[error]   symbol: class Entity
+[error] @Entity
+[error] C:\Users\daniel.moreno\proyecto\admin-lte-3.0-play-framework\app\models\Currency.java:11:1: cannot find symbol
+[error]   symbol: class Table
+[error] @Table(name = "currency")
+[error] C:\Users\daniel.moreno\proyecto\admin-lte-3.0-play-framework\app\models\Currency.java:102:1: cannot find symbol
+[error]   symbol:   class Finder
+[error]   location: class models.Currency
+[error]     public static final Finder<Integer, Currency> finder = new Finder<>(Currency.class);
+[error] C:\Users\daniel.moreno\proyecto\admin-lte-3.0-play-framework\app\models\Currency.java:14:1: cannot find symbol
+[error]   symbol:   class Id
+[error]   location: class models.Currency
+[error]     @Id
+[error] C:\Users\daniel.moreno\proyecto\admin-lte-3.0-play-framework\app\models\Currency.java:15:1: cannot find symbol
+[error]   symbol:   class GeneratedValue
+[error]   location: class models.Currency
+[error]     @GeneratedValue(strategy = GenerationType.IDENTITY)
+[error] C:\Users\daniel.moreno\proyecto\admin-lte-3.0-play-framework\app\models\Currency.java:16:1: cannot find symbol
+[error]   symbol:   class Basic
+[error]   location: class models.Currency
+[error]     @Basic(optional = false)
+[error] C:\Users\daniel.moreno\proyecto\admin-lte-3.0-play-framework\app\models\Currency.java:17:1: cannot find symbol
+[error]   symbol:   class Column
+[error]   location: class models.Currency
+[error]     @Column(name = "id")
+[error] C:\Users\daniel.moreno\proyecto\admin-lte-3.0-play-framework\app\models\Currency.java:20:1: cannot find symbol
+[error]   symbol:   class Column
+[error]   location: class models.Currency
+[error]     @Column(name = "name")
+[error] C:\Users\daniel.moreno\proyecto\admin-lte-3.0-play-framework\app\models\Currency.java:22:1: cannot find symbol
+[error]   symbol:   class Column
+[error]   location: class models.Currency
+[error]     @Column(name = "symbol")
+[error] C:\Users\daniel.moreno\proyecto\admin-lte-3.0-play-framework\app\models\Currency.java:24:1: cannot find symbol
+[error]   symbol:   class Column
+[error]   location: class models.Currency
+[error]     @Column(name = "conversion_in_dollar")
+[error] C:\Users\daniel.moreno\proyecto\admin-lte-3.0-play-framework\app\models\Currency.java:26:1: cannot find symbol
+[error]   symbol:   class Column
+[error]   location: class models.Currency
+[error]     @Column(name = "status")
+[error] C:\Users\daniel.moreno\proyecto\admin-lte-3.0-play-framework\app\models\Currency.java:28:1: cannot find symbol
+[error]   symbol:   class Column
+[error]   location: class models.Currency
+[error]     @Column(name = "created_at")
+[error] C:\Users\daniel.moreno\proyecto\admin-lte-3.0-play-framework\app\models\Currency.java:29:1: cannot find symbol
+[error]   symbol:   class Temporal
+[error]   location: class models.Currency
+[error]     @Temporal(TemporalType.TIMESTAMP)
+[error] C:\Users\daniel.moreno\proyecto\admin-lte-3.0-play-framework\app\models\Currency.java:31:1: cannot find symbol
+[error]   symbol:   class Column
+[error]   location: class models.Currency
+[error]     @Column(name = "updated_at")
+[error] C:\Users\daniel.moreno\proyecto\admin-lte-3.0-play-framework\app\models\Currency.java:32:1: cannot find symbol
+[error]   symbol:   class Temporal
+[error]   location: class models.Currency
+[error]     @Temporal(TemporalType.TIMESTAMP)
+[error] C:\Users\daniel.moreno\proyecto\admin-lte-3.0-play-framework\app\models\Currency.java:34:1: cannot find symbol
+[error]   symbol:   class Column
+[error]   location: class models.Currency
+[error]     @Column(name = "deleted_at")
+[error] C:\Users\daniel.moreno\proyecto\admin-lte-3.0-play-framework\app\models\Currency.java:35:1: cannot find symbol
+[error]   symbol:   class Temporal
+[error]   location: class models.Currency
+[error]     @Temporal(TemporalType.TIMESTAMP)
+[error] C:\Users\daniel.moreno\proyecto\admin-lte-3.0-play-framework\app\models\Currency.java:102:1: cannot find symbol
+[error]   symbol:   class Finder
+[error]   location: class models.Currency
+[error]     public static final Finder<Integer, Currency> finder = new Finder<>(Currency.class);
