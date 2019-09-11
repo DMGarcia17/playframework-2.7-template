@@ -4,7 +4,7 @@
 		module="admin-lte-3-0-play-framework-build"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20190909133015"
+		publication="20190911074108"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>

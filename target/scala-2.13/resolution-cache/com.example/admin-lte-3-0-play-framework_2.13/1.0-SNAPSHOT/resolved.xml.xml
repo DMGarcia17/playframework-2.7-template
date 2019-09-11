@@ -4,7 +4,7 @@
 		module="admin-lte-3-0-play-framework_2.13"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20190909133047"
+		publication="20190911074130"
 	>
 		<description>
 		admin-lte-3.0-play-framework
@@ -55,6 +55,8 @@
 		<dependency org="com.typesafe.play" name="play-java-forms_2.13" rev="2.7.3" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="filters-helpers_2.13" rev="2.7.3" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-java-jdbc_2.13" rev="2.7.3" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.play" name="play-ehcache_2.13" rev="2.7.3" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.play" name="play-ahc-ws_2.13" rev="2.7.3" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-guice_2.13" rev="2.7.3" conf="compile->default(compile)"/>
 		<dependency org="org.postgresql" name="postgresql" rev="9.4-1202-jdbc42" conf="compile->default(compile)"/>
 	</dependencies>

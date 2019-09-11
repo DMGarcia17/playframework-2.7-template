@@ -1,34 +1,61 @@
-2019-09-09 13:31:31,401 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-3 - Database [default] initialized at jdbc:postgresql://ubuntu-pgsql.creativa.com:5432/gesel_app_dev
-2019-09-09 13:31:31,425 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-3 - Creating Pool for datasource 'default'
-2019-09-09 13:31:34,202 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-3 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+2019-09-11 07:46:52,382 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-2 - Database [default] initialized at jdbc:postgresql://ubuntu-pgsql.creativa.com:5432/gesel_app_dev
+2019-09-11 07:46:52,397 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-2 - Creating Pool for datasource 'default'
+2019-09-11 07:46:55,254 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-2 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
 
     play.filters.csrf.CSRFFilter
     play.filters.headers.SecurityHeadersFilter
     play.filters.hosts.AllowedHostsFilter
 
-2019-09-09 13:31:34,289 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-3 - Application started (Dev) (no global state)
-2019-09-09 13:31:34,401 [ERROR] from application in play-dev-mode-akka.actor.default-dispatcher-3 - 
+2019-09-11 07:46:55,334 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-2 - Application started (Dev) (no global state)
+2019-09-11 07:46:55,499 [WARN] from play.api.mvc.DefaultUrlEncodedCookieDataCodec in application-akka.actor.default-dispatcher-8 - Cookie failed message authentication check
+2019-09-11 07:46:56,146 [WARN] from play.api.mvc.DefaultUrlEncodedCookieDataCodec in application-akka.actor.default-dispatcher-8 - Cookie failed message authentication check
+2019-09-11 07:46:56,226 [WARN] from play.api.mvc.DefaultUrlEncodedCookieDataCodec in application-akka.actor.default-dispatcher-8 - Cookie failed message authentication check
+2019-09-11 07:46:56,244 [WARN] from play.api.mvc.DefaultUrlEncodedCookieDataCodec in application-akka.actor.default-dispatcher-8 - Cookie failed message authentication check
+2019-09-11 07:46:56,261 [WARN] from play.api.mvc.DefaultUrlEncodedCookieDataCodec in application-akka.actor.default-dispatcher-8 - Cookie failed message authentication check
+2019-09-11 07:46:56,284 [WARN] from play.api.mvc.DefaultUrlEncodedCookieDataCodec in application-akka.actor.default-dispatcher-8 - Cookie failed message authentication check
+2019-09-11 07:46:56,293 [WARN] from play.api.mvc.DefaultUrlEncodedCookieDataCodec in application-akka.actor.default-dispatcher-8 - Cookie failed message authentication check
+2019-09-11 07:46:56,303 [WARN] from play.api.mvc.DefaultUrlEncodedCookieDataCodec in application-akka.actor.default-dispatcher-8 - Cookie failed message authentication check
+2019-09-11 07:46:56,315 [WARN] from play.api.mvc.DefaultUrlEncodedCookieDataCodec in application-akka.actor.default-dispatcher-8 - Cookie failed message authentication check
+2019-09-11 07:46:56,325 [WARN] from play.api.mvc.DefaultUrlEncodedCookieDataCodec in application-akka.actor.default-dispatcher-8 - Cookie failed message authentication check
+2019-09-11 07:46:56,334 [WARN] from play.api.mvc.DefaultUrlEncodedCookieDataCodec in application-akka.actor.default-dispatcher-8 - Cookie failed message authentication check
+2019-09-11 07:46:56,571 [WARN] from play.api.mvc.DefaultUrlEncodedCookieDataCodec in application-akka.actor.default-dispatcher-8 - Cookie failed message authentication check
+2019-09-11 07:47:20,231 [WARN] from play.api.mvc.DefaultUrlEncodedCookieDataCodec in application-akka.actor.default-dispatcher-5 - Cookie failed message authentication check
+2019-09-11 07:47:23,913 [WARN] from play.api.mvc.DefaultUrlEncodedCookieDataCodec in application-akka.actor.default-dispatcher-5 - Cookie failed message authentication check
+2019-09-11 07:49:28,983 [WARN] from play.api.mvc.DefaultUrlEncodedCookieDataCodec in application-akka.actor.default-dispatcher-3 - Cookie failed message authentication check
+2019-09-11 07:50:13,475 [WARN] from com.zaxxer.hikari.pool.HikariPool in HikariPool-1 housekeeper - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50s872ms578µs192ns).
+2019-09-11 07:50:13,608 [WARN] from play.api.mvc.DefaultUrlEncodedCookieDataCodec in application-akka.actor.default-dispatcher-3 - Cookie failed message authentication check
+2019-09-11 07:50:13,669 [WARN] from play.api.mvc.DefaultUrlEncodedCookieDataCodec in application-akka.actor.default-dispatcher-3 - Cookie failed message authentication check
+2019-09-11 07:50:13,673 [WARN] from play.api.mvc.DefaultUrlEncodedCookieDataCodec in application-akka.actor.default-dispatcher-3 - Cookie failed message authentication check
+2019-09-11 07:50:13,689 [WARN] from play.api.mvc.DefaultUrlEncodedCookieDataCodec in application-akka.actor.default-dispatcher-10 - Cookie failed message authentication check
+2019-09-11 07:50:13,689 [WARN] from play.api.mvc.DefaultUrlEncodedCookieDataCodec in application-akka.actor.default-dispatcher-11 - Cookie failed message authentication check
+2019-09-11 07:50:15,367 [WARN] from play.api.mvc.DefaultUrlEncodedCookieDataCodec in application-akka.actor.default-dispatcher-10 - Cookie failed message authentication check
+2019-09-11 07:50:15,466 [WARN] from play.api.mvc.DefaultUrlEncodedCookieDataCodec in application-akka.actor.default-dispatcher-10 - Cookie failed message authentication check
+2019-09-11 07:50:15,516 [WARN] from play.api.mvc.DefaultUrlEncodedCookieDataCodec in application-akka.actor.default-dispatcher-10 - Cookie failed message authentication check
+2019-09-11 07:50:15,538 [WARN] from play.api.mvc.DefaultUrlEncodedCookieDataCodec in application-akka.actor.default-dispatcher-10 - Cookie failed message authentication check
+2019-09-11 07:50:15,568 [WARN] from play.api.mvc.DefaultUrlEncodedCookieDataCodec in application-akka.actor.default-dispatcher-10 - Cookie failed message authentication check
+2019-09-11 07:51:07,888 [ERROR] from application in play-dev-mode-akka.actor.default-dispatcher-14 - 
 
-! @7d6025k2d - Internal server error, for (GET) [/] ->
+! @7d6cnh49b - Internal server error, for (GET) [/pages/UI/sliders.html] ->
  
-play.api.db.evolutions.InvalidDatabaseRevision: Database 'default' needs evolution![An SQL script need to be run on your database.]
-	at play.api.db.evolutions.EvolutionsWebCommands.$anonfun$handleWebCommand$5(ApplicationEvolutions.scala:529)
-	at play.api.db.evolutions.EvolutionsWebCommands.$anonfun$handleWebCommand$5$adapted(ApplicationEvolutions.scala:522)
-	at play.api.db.evolutions.ApplicationEvolutions$.$anonfun$runEvolutions$1(ApplicationEvolutions.scala:211)
-	at play.api.db.evolutions.ApplicationEvolutions$.withLock(ApplicationEvolutions.scala:232)
-	at play.api.db.evolutions.ApplicationEvolutions$.runEvolutions(ApplicationEvolutions.scala:202)
-	at play.api.db.evolutions.EvolutionsWebCommands.$anonfun$handleWebCommand$4(ApplicationEvolutions.scala:522)
-	at play.api.db.evolutions.EvolutionsWebCommands.$anonfun$handleWebCommand$4$adapted(ApplicationEvolutions.scala:517)
-	at scala.collection.immutable.List.foreach(List.scala:312)
-	at play.api.db.evolutions.EvolutionsWebCommands.handleWebCommand(ApplicationEvolutions.scala:517)
-	at play.core.DefaultWebCommands.$anonfun$handleWebCommand$1(WebCommands.scala:42)
-	at scala.collection.immutable.Stream.flatMap(Stream.scala:195)
-	at play.core.DefaultWebCommands.handleWebCommand(WebCommands.scala:42)
-	at play.api.http.DefaultHttpRequestHandler.$anonfun$handlerForRequest$4(HttpRequestHandler.scala:204)
-	at scala.Option.flatMap(Option.scala:284)
-	at play.api.http.DefaultHttpRequestHandler.handlerForRequest(HttpRequestHandler.scala:203)
-	at play.core.server.Server$.getHandlerFor(Server.scala:121)
-	at play.core.server.AkkaHttpServer.handleRequest(AkkaHttpServer.scala:319)
+play.sbt.PlayExceptions$CompilationException: Compilation error[value routes is not a member of object controllers.routes]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:37)
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:37)
+	at scala.Option.map(Option.scala:146)
+	at play.sbt.run.PlayReload$.$anonfun$taskFailureHandler$1(PlayReload.scala:41)
+	at scala.Option.map(Option.scala:146)
+	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:36)
+	at play.sbt.run.PlayReload$.compileFailure(PlayReload.scala:29)
+	at play.sbt.run.PlayReload$.$anonfun$compile$3(PlayReload.scala:64)
+	at scala.util.Either$LeftProjection.map(Either.scala:569)
+	at play.sbt.run.PlayReload$.compile(PlayReload.scala:64)
+	at play.sbt.run.PlayRun$.$anonfun$playRunTask$4(PlayRun.scala:80)
+	at play.runsupport.Reloader.$anonfun$reload$1(Reloader.scala:501)
+	at play.runsupport.Reloader$$anon$1.run(Reloader.scala:58)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at play.runsupport.Reloader$.play$runsupport$Reloader$$withReloaderContextClassLoader(Reloader.scala:64)
+	at play.runsupport.Reloader.reload(Reloader.scala:501)
+	at play.core.server.DevServerStart$$anon$1.get(DevServerStart.scala:143)
+	at play.core.server.AkkaHttpServer.handleRequest(AkkaHttpServer.scala:304)
 	at play.core.server.AkkaHttpServer.$anonfun$createServerBinding$1(AkkaHttpServer.scala:189)
 	at akka.stream.impl.fusing.MapAsync$$anon$30.onPush(Ops.scala:1261)
 	at akka.stream.impl.fusing.GraphInterpreter.processPush(GraphInterpreter.scala:523)
@@ -50,23 +77,111 @@ play.api.db.evolutions.InvalidDatabaseRevision: Database 'default' needs evoluti
 	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
 	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
 	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
-2019-09-09 13:32:17,529 [INFO] from application in application-akka.actor.default-dispatcher-2 - Shutting down connection pool.
-2019-09-09 13:32:18,000 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-2 - Database [default] initialized at jdbc:postgresql://ubuntu-pgsql.creativa.com:5432/gesel_app_dev
-2019-09-09 13:32:18,001 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-2 - Creating Pool for datasource 'default'
-2019-09-09 13:32:18,502 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-2 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+2019-09-11 07:51:10,063 [ERROR] from application in play-dev-mode-akka.actor.default-dispatcher-9 - 
+
+! @7d6cnh7n4 - Internal server error, for (GET) [/] ->
+ 
+play.sbt.PlayExceptions$CompilationException: Compilation error[value routes is not a member of object controllers.routes]
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:37)
+	at play.sbt.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:37)
+	at scala.Option.map(Option.scala:146)
+	at play.sbt.run.PlayReload$.$anonfun$taskFailureHandler$1(PlayReload.scala:41)
+	at scala.Option.map(Option.scala:146)
+	at play.sbt.run.PlayReload$.taskFailureHandler(PlayReload.scala:36)
+	at play.sbt.run.PlayReload$.compileFailure(PlayReload.scala:29)
+	at play.sbt.run.PlayReload$.$anonfun$compile$3(PlayReload.scala:64)
+	at scala.util.Either$LeftProjection.map(Either.scala:569)
+	at play.sbt.run.PlayReload$.compile(PlayReload.scala:64)
+	at play.sbt.run.PlayRun$.$anonfun$playRunTask$4(PlayRun.scala:80)
+	at play.runsupport.Reloader.$anonfun$reload$1(Reloader.scala:501)
+	at play.runsupport.Reloader$$anon$1.run(Reloader.scala:58)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at play.runsupport.Reloader$.play$runsupport$Reloader$$withReloaderContextClassLoader(Reloader.scala:64)
+	at play.runsupport.Reloader.reload(Reloader.scala:501)
+	at play.core.server.DevServerStart$$anon$1.get(DevServerStart.scala:143)
+	at play.core.server.AkkaHttpServer.handleRequest(AkkaHttpServer.scala:304)
+	at play.core.server.AkkaHttpServer.$anonfun$createServerBinding$1(AkkaHttpServer.scala:189)
+	at akka.stream.impl.fusing.MapAsync$$anon$30.onPush(Ops.scala:1261)
+	at akka.stream.impl.fusing.GraphInterpreter.processPush(GraphInterpreter.scala:523)
+	at akka.stream.impl.fusing.GraphInterpreter.execute(GraphInterpreter.scala:409)
+	at akka.stream.impl.fusing.GraphInterpreterShell.runBatch(ActorGraphInterpreter.scala:606)
+	at akka.stream.impl.fusing.GraphInterpreterShell$AsyncInput.execute(ActorGraphInterpreter.scala:485)
+	at akka.stream.impl.fusing.GraphInterpreterShell.processEvent(ActorGraphInterpreter.scala:581)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.akka$stream$impl$fusing$ActorGraphInterpreter$$processEvent(ActorGraphInterpreter.scala:749)
+	at akka.stream.impl.fusing.ActorGraphInterpreter$$anonfun$receive$1.applyOrElse(ActorGraphInterpreter.scala:764)
+	at akka.actor.Actor.aroundReceive(Actor.scala:539)
+	at akka.actor.Actor.aroundReceive$(Actor.scala:537)
+	at akka.stream.impl.fusing.ActorGraphInterpreter.aroundReceive(ActorGraphInterpreter.scala:671)
+	at akka.actor.ActorCell.receiveMessage(ActorCell.scala:612)
+	at akka.actor.ActorCell.invoke(ActorCell.scala:581)
+	at akka.dispatch.Mailbox.processMailbox(Mailbox.scala:268)
+	at akka.dispatch.Mailbox.run(Mailbox.scala:229)
+	at akka.dispatch.Mailbox.exec(Mailbox.scala:241)
+	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+2019-09-11 07:51:38,110 [INFO] from application in application-akka.actor.default-dispatcher-3 - Shutting down connection pool.
+2019-09-11 07:51:38,402 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-14 - Database [default] initialized at jdbc:postgresql://ubuntu-pgsql.creativa.com:5432/gesel_app_dev
+2019-09-11 07:51:38,402 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-14 - Creating Pool for datasource 'default'
+2019-09-11 07:51:38,985 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-14 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
 
     play.filters.csrf.CSRFFilter
     play.filters.headers.SecurityHeadersFilter
     play.filters.hosts.AllowedHostsFilter
 
-2019-09-09 13:32:18,543 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-2 - Application started (Dev) (no global state)
-2019-09-09 13:33:54,180 [INFO] from application in application-akka.actor.default-dispatcher-2 - Shutting down connection pool.
-2019-09-09 13:33:54,945 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-18 - Database [default] initialized at jdbc:postgresql://ubuntu-pgsql.creativa.com:5432/gesel_app_dev
-2019-09-09 13:33:54,945 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-18 - Creating Pool for datasource 'default'
-2019-09-09 13:33:55,634 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-18 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+2019-09-11 07:51:39,007 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-14 - Application started (Dev) (no global state)
+2019-09-11 07:51:39,018 [WARN] from play.api.mvc.DefaultUrlEncodedCookieDataCodec in application-akka.actor.default-dispatcher-4 - Cookie failed message authentication check
+2019-09-11 07:51:39,177 [WARN] from play.api.mvc.DefaultUrlEncodedCookieDataCodec in application-akka.actor.default-dispatcher-2 - Cookie failed message authentication check
+2019-09-11 07:51:39,177 [WARN] from play.api.mvc.DefaultUrlEncodedCookieDataCodec in application-akka.actor.default-dispatcher-4 - Cookie failed message authentication check
+2019-09-11 07:51:39,260 [WARN] from play.api.mvc.DefaultUrlEncodedCookieDataCodec in application-akka.actor.default-dispatcher-5 - Cookie failed message authentication check
+2019-09-11 07:58:04,592 [INFO] from application in application-akka.actor.default-dispatcher-5 - Shutting down connection pool.
+2019-09-11 07:58:05,150 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-12 - Database [default] initialized at jdbc:postgresql://ubuntu-pgsql.creativa.com:5432/gesel_app_dev
+2019-09-11 07:58:05,151 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-12 - Creating Pool for datasource 'default'
+2019-09-11 07:58:05,353 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-12 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
 
     play.filters.csrf.CSRFFilter
     play.filters.headers.SecurityHeadersFilter
     play.filters.hosts.AllowedHostsFilter
 
-2019-09-09 13:33:55,653 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-18 - Application started (Dev) (no global state)
+2019-09-11 07:58:05,374 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-12 - Application started (Dev) (no global state)
+2019-09-11 07:59:19,013 [INFO] from application in application-akka.actor.default-dispatcher-2 - Shutting down connection pool.
+2019-09-11 07:59:19,380 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-40 - Database [default] initialized at jdbc:postgresql://ubuntu-pgsql.creativa.com:5432/gesel_app_dev
+2019-09-11 07:59:19,380 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-40 - Creating Pool for datasource 'default'
+2019-09-11 07:59:19,680 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-40 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2019-09-11 07:59:19,690 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-40 - Application started (Dev) (no global state)
+2019-09-11 08:02:42,604 [INFO] from application in application-akka.actor.default-dispatcher-5 - Shutting down connection pool.
+2019-09-11 08:02:43,056 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-37 - Database [default] initialized at jdbc:postgresql://ubuntu-pgsql.creativa.com:5432/gesel_app_dev
+2019-09-11 08:02:43,056 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-37 - Creating Pool for datasource 'default'
+2019-09-11 08:02:43,316 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-37 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2019-09-11 08:02:43,327 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-37 - Application started (Dev) (no global state)
+2019-09-11 08:03:19,100 [INFO] from application in application-akka.actor.default-dispatcher-8 - Shutting down connection pool.
+2019-09-11 08:03:19,489 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-73 - Database [default] initialized at jdbc:postgresql://ubuntu-pgsql.creativa.com:5432/gesel_app_dev
+2019-09-11 08:03:19,490 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-73 - Creating Pool for datasource 'default'
+2019-09-11 08:03:19,669 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-73 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2019-09-11 08:03:19,679 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-73 - Application started (Dev) (no global state)
+2019-09-11 08:04:10,039 [INFO] from application in application-akka.actor.default-dispatcher-6 - Shutting down connection pool.
+2019-09-11 08:04:10,591 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-76 - Database [default] initialized at jdbc:postgresql://ubuntu-pgsql.creativa.com:5432/gesel_app_dev
+2019-09-11 08:04:10,591 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-76 - Creating Pool for datasource 'default'
+2019-09-11 08:04:10,780 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-76 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2019-09-11 08:04:10,787 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-76 - Application started (Dev) (no global state)

@@ -9,6 +9,10 @@ scalaVersion := "2.13.0"
 
 libraryDependencies ++= Seq(
   javaJdbc,
+  ehcache,
+  javaWs,
   "com.typesafe.play" %% "play-guice" % "2.7.3",
   "org.postgresql" % "postgresql" % "9.4-1202-jdbc42"
 )
+
+routesGenerator := InjectedRoutesGenerator

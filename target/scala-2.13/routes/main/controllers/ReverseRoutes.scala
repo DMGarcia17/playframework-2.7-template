@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/Users/daniel.moreno/proyecto/admin-lte-3.0-play-framework/conf/routes
-// @DATE:Mon Sep 09 12:04:32 CST 2019
+// @DATE:Wed Sep 11 07:45:37 CST 2019
 
 import play.api.mvc.Call
 
@@ -18,6 +18,12 @@ package controllers {
     }
 
   
+    // @LINE:11
+    def dashboard(): Call = {
+      
+      Call("GET", _prefix + { _defaultPrefix } + "admin/index")
+    }
+  
     // @LINE:6
     def index(): Call = {
       
@@ -34,9 +40,9 @@ package controllers {
 
   
     // @LINE:9
-    def versioned(file:Asset): Call = {
+    def at(file:String): Call = {
       implicit lazy val _rrc = new play.core.routing.ReverseRouteContext(Map(("path", "/public"))); _rrc
-      Call("GET", _prefix + { _defaultPrefix } + "assets/" + implicitly[play.api.mvc.PathBindable[Asset]].unbind("file", file))
+      Call("GET", _prefix + { _defaultPrefix } + "assets/" + implicitly[play.api.mvc.PathBindable[String]].unbind("file", file))
     }
   
   }

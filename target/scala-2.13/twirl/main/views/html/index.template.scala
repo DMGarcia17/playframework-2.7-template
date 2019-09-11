@@ -34,7 +34,7 @@ Seq[Any](format.raw/*1.15*/("""
 
 """),_display_(/*3.2*/main("Welcome to Play")/*3.25*/ {_display_(Seq[Any](format.raw/*3.27*/("""
   """),format.raw/*4.3*/("""<h1>Welcome to Play!</h1>
-  
+
   <p>This is the data: """),_display_(/*6.25*/dato),format.raw/*6.29*/("""</p>
 """)))}),format.raw/*7.2*/("""
 """))
@@ -53,10 +53,10 @@ Seq[Any](format.raw/*1.15*/("""
 
               /*
                   -- GENERATED --
-                  DATE: 2019-09-09T13:33:48.904
+                  DATE: 2019-09-10T07:55:30.614
                   SOURCE: C:/Users/daniel.moreno/proyecto/admin-lte-3.0-play-framework/app/views/index.scala.html
-                  HASH: bfad4bc1b171c47a1543f6299ce95e3c29ac8dd4
-                  MATRIX: 948->1|1056->14|1086->19|1117->42|1156->44|1186->48|1267->103|1291->107|1327->114
+                  HASH: e9d1cec6e963ca726d01f3c2b233ff312715104a
+                  MATRIX: 948->1|1056->14|1086->19|1117->42|1156->44|1186->48|1265->101|1289->105|1325->112
                   LINES: 28->1|33->1|35->3|35->3|35->3|36->4|38->6|38->6|39->7
                   -- GENERATED --
               */

@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
 // @SOURCE:C:/Users/daniel.moreno/proyecto/admin-lte-3.0-play-framework/conf/routes
-// @DATE:Mon Sep 09 12:04:32 CST 2019
+// @DATE:Wed Sep 11 07:45:37 CST 2019
 
 package controllers;
 

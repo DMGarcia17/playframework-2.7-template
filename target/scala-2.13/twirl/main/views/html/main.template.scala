@@ -42,14 +42,14 @@ Seq[Any](format.raw/*7.32*/("""
     <head>
         """),format.raw/*12.62*/("""
         """),format.raw/*13.9*/("""<title>"""),_display_(/*13.17*/title),format.raw/*13.22*/("""</title>
-        <link rel="stylesheet" media="screen" href=""""),_display_(/*14.54*/routes/*14.60*/.Assets.versioned("stylesheets/main.css")),format.raw/*14.101*/("""">
-        <link rel="shortcut icon" type="image/png" href=""""),_display_(/*15.59*/routes/*15.65*/.Assets.versioned("images/favicon.png")),format.raw/*15.104*/("""">
+        <link rel="stylesheet" media="screen" href=""""),_display_(/*14.54*/routes/*14.60*/.Assets.at("stylesheets/main.css")),format.raw/*14.94*/("""">
+        <link rel="shortcut icon" type="image/png" href=""""),_display_(/*15.59*/routes/*15.65*/.Assets.at("images/favicon.png")),format.raw/*15.97*/("""">
     </head>
     <body>
         """),format.raw/*19.32*/("""
         """),_display_(/*20.10*/content),format.raw/*20.17*/("""
 
-        """),format.raw/*22.9*/("""<script src=""""),_display_(/*22.23*/routes/*22.29*/.Assets.versioned("javascripts/main.js")),format.raw/*22.69*/("""" type="text/javascript"></script>
+        """),format.raw/*22.9*/("""<script src=""""),_display_(/*22.23*/routes/*22.29*/.Assets.at("javascripts/main.js")),format.raw/*22.62*/("""" type="text/javascript"></script>
     </body>
 </html>
 """))
@@ -68,10 +68,10 @@ Seq[Any](format.raw/*7.32*/("""
 
               /*
                   -- GENERATED --
-                  DATE: 2019-09-09T12:04:33.395
+                  DATE: 2019-09-11T07:51:32.769
                   SOURCE: C:/Users/daniel.moreno/proyecto/admin-lte-3.0-play-framework/app/views/main.scala.html
-                  HASH: 1c6ff78675beee071e369b305cd8e888a02716d8
-                  MATRIX: 1211->266|1336->296|1366->300|1449->408|1486->418|1521->426|1547->431|1637->494|1652->500|1715->541|1804->603|1819->609|1880->648|1945->776|1983->787|2011->794|2050->806|2091->820|2106->826|2167->866
+                  HASH: 631d94179bd27626dd03a5e86b036be21b0076a2
+                  MATRIX: 1211->266|1336->296|1366->300|1449->408|1486->418|1521->426|1547->431|1637->494|1652->500|1707->534|1796->596|1811->602|1864->634|1929->762|1967->773|1995->780|2034->792|2075->806|2090->812|2144->845
                   LINES: 33->7|38->7|40->9|43->12|44->13|44->13|44->13|45->14|45->14|45->14|46->15|46->15|46->15|49->19|50->20|50->20|52->22|52->22|52->22|52->22
                   -- GENERATED --
               */
