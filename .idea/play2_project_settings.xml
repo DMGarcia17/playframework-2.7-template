@@ -20,6 +20,7 @@
         <entry key="root">
           <value>
             <ProjectSettingsEntry>
+              <option name="sourceDir" value="C:\Users\daniel.moreno\proyecto\admin-lte-3.0-play-framework\app" />
               <option name="confDir" value="C:\Users\daniel.moreno\proyecto\admin-lte-3.0-play-framework\app" />
               <option name="templateImports">
                 <list>
