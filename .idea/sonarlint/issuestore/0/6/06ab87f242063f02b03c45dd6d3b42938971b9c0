@@ -1,5 +1,0 @@
-
-Msquid:S1481"*Remove this unused "query" local variable.(õÍ¹•úÿÿÿÿ8µùµ„Ò-
-\squid:S1854"9Remove this useless assignment to local variable "query".(õÍ¹•úÿÿÿÿ8µùµ„Ò-
-Ssquid:S1854"5Remove this useless assignment to local variable "c".(—ëŒ8…ÇÅÜÑ-
-Dsquid:S1481"&Remove this unused "c" local variable.(—ëŒ8…ÇÅÜÑ-
